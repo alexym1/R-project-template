@@ -1,6 +1,6 @@
 # R-project-template
 
-![](https://img.shields.io/badge/github%20version-0.1.1-orange.svg)
+![](https://img.shields.io/badge/github%20version-0.1.0-orange.svg)
 
 > Generate state-of-the-art R project template
 
