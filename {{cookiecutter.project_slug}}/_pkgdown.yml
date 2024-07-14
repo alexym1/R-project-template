@@ -1,0 +1,11 @@
+url: https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}
+
+template:
+  bootstrap: 5
+
+authors:
+  Alex Martinez:
+    href: https://github.com/{{cookiecutter.github_username}}
+
+development:
+  mode: auto

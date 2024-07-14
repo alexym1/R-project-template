@@ -1,0 +1,16 @@
+---
+title: "Introduction to {{cookiecutter.project_slug}}"
+output: rmarkdown::html_vignette
+description: >
+  Start here if this is your first time using {{cookiecutter.project_slug}}.
+vignette: >
+  %\VignetteIndexEntry{Introduction to {{cookiecutter.project_slug}}}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+```
+
+A brief introduction to {{cookiecutter.project_slug}}.

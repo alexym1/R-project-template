@@ -1,0 +1,44 @@
+---
+output: github_document
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# {{cookiecutter.project_slug}} <a href=#><img src='man/figures/sticker.png' align="right" width="120" /></a>
+
+<!-- badges: start -->
+![](https://img.shields.io/badge/github%20version-0.1.0-orange.svg)
+[![R-CMD-check](https://github.com/{{cookiecutter.__gh_slug}}/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/{{cookiecutter.__gh_slug}}/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/{{cookiecutter.__gh_slug}}/branch/main/graph/badge.svg)](https://app.codecov.io/gh/{{cookiecutter.__gh_slug}}?branch=main)
+<!-- badges: end -->
+
+> {{cookiecutter.project_short_description}}
+
+
+## Overview
+
+Add a brief overview of the package here. What does it do? Why does it matter?
+
+## Installation
+
+The latest version can be installed from GitHub as follows: 
+
+```{r eval = FALSE}
+install.packages("devtools")
+devtools::install_github("{{cookiecutter.__gh_slug}}")
+```
+
+
+## Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/CONTRIBUTING.html). By participating in this project you agree to abide by its terms.
