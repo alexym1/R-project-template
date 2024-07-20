@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# {{cookiecutter.project_slug}} <a href=#><img src='man/figures/sticker.png' align="right" width="120" /></a>
+# {{cookiecutter.project_slug}} <a href=#><img src='man/figures/logo.png' align="right" width="120" /></a>
 
 <!-- badges: start -->
 ![](https://img.shields.io/badge/github%20version-0.1.0-orange.svg)
@@ -36,6 +36,38 @@ The latest version can be installed from GitHub as follows:
 ```{r eval = FALSE}
 install.packages("devtools")
 devtools::install_github("{{cookiecutter.__gh_slug}}")
+```
+
+## Usage
+
+Read the `CONTRIBUTING.md` file for more information on how to use this package.
+Here a brief example of how to use the package:
+
+### Load renv
+
+```{r eval = FALSE}
+renv::restore()
+```
+
+
+### Check the package
+
+Add a new feature and check the quality of your package using the following code.
+
+```{r eval = FALSE}
+devtools::check()
+```
+
+
+### Build website
+
+Change the blank sticker located in `man/figures/logo.png` to your own sticker. Then, run the following code to build the website:
+
+
+```{r eval = FALSE}
+pkgdown::build_favicons()
+pkgdown::build_site()
+pkgdown::preview_site()
 ```
 
 
